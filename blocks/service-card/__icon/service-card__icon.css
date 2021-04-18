@@ -1,0 +1,19 @@
+/* Стилизизация элемента service-card__icon */
+.service-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color:#2876e2;
+
+  margin: 0;
+  color: #fff;
+  /*fill: #2876e2;*/
+
+  transition: all 0.25s;
+}
+
+

@@ -1,0 +1,7 @@
+/* Стилизизация элемента menu__items */
+.menu__items {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}

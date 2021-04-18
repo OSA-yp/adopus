@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Istok Web';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("IstokWeb-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Montserrat"), url("Montserrat-Medium.ttf") format("ttf");
+}
+

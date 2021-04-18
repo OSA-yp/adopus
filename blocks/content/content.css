@@ -1,0 +1,10 @@
+/* Стилизизация блока content */
+.content {
+  padding-top: 66px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  background-color: #fff;
+}
+

@@ -1,0 +1,12 @@
+/* Стилизизация элемента services__title */
+.services__title {
+  margin: 0;
+  padding: 30px 0 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(48, 48, 54);
+}
+

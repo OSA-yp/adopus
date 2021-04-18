@@ -1,0 +1,10 @@
+/* Стилизизация элемента services__elements */
+.services__elements {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-row-gap:40px;
+  grid-column-gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+

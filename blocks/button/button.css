@@ -1,0 +1,21 @@
+/* Стилизизация блока button */
+.button {
+
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  padding: 15px 20px;
+  cursor: pointer;
+
+
+  background: linear-gradient(to right, #2876e2 0%, #3f8efc 100%);
+  transition: background 2s;
+}
+
+.button:active, .button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background: #3f8efc;
+}

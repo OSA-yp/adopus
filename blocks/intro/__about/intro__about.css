@@ -1,0 +1,14 @@
+/* Стилизизация элемента intro__about */
+.intro__about {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(48, 48, 54);
+
+  margin: 0;
+  padding: 20px 0;
+}
+

@@ -1,0 +1,7 @@
+/* Стилизизация элемента header__phone */
+.header__phone {
+  text-decoration: none;
+  text-underline: none;
+  color: rgb(48, 48,54);
+}
+

@@ -1,0 +1,13 @@
+/* Стилизизация блока service-card */
+.service-card {
+  border: 1px solid rgba(48, 48, 54, 0.5);
+  border-radius: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+

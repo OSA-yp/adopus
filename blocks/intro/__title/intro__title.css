@@ -1,0 +1,12 @@
+/* Стилизизация элемента intro__title */
+.intro__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  line-height: 43px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(48, 48, 54);
+  margin: 0;
+  padding: 0;
+}
+

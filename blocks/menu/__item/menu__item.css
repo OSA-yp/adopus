@@ -1,0 +1,9 @@
+/* Стилизизация элемента menu__item */
+.menu__item {
+  list-style: none;
+  margin: 0 15px;
+  padding: 0;
+  cursor: pointer;
+
+
+}

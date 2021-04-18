@@ -1,0 +1,6 @@
+/* Стилизизация элемента header__logo-icon */
+.header__logo-icon {
+  width: 35px;
+  height: 39px;
+  padding: 0 10px 0 10px;
+}

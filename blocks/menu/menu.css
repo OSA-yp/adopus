@@ -1,0 +1,13 @@
+/* Стилизизация блока menu */
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 740px) {
+  .menu {
+    display: none;
+  }
+}
+

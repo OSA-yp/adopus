@@ -1,0 +1,10 @@
+/* Стилизизация элемента service-card__title */
+.service-card__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(48, 48, 54);
+}
+
