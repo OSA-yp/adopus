@@ -1,8 +1,8 @@
 /* Стилизизация элемента service-card__description */
 .service-card__description {
   font-family: 'Istok Web', sans-serif;
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 25px;
   font-weight: 400;
   font-style: normal;
   text-align: center;

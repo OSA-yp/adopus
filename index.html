@@ -7,9 +7,9 @@
   <meta name="keywords" content="ИТ-аутсорсинг, Проектирование, Мониторинг, Криптозащита, Виртуализация">
   <meta name="author" content="Сергей Окунь">
   <title>ИТ-аутсорсинг в Москве</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
   <link rel="stylesheet" href="./pages/index.css">
-  <!-- версия от 17.04.2021 21-40 -->
+  <!-- версия от 18.04.2021 21-50 -->
 </head>
 <body  class="body">
   <div class="page">
@@ -24,14 +24,14 @@
         <nav class="menu">
           <ul class="menu__items">
             <li class="menu__item">
-              <a href="#services" class="menu__item hover-item" data-title="Услуги"><span>Услуги</span></a>
+                <a href="#services" class="menu__item-text hover-item" data-title="Услуги"><span>Услуги</span></a>
             </li>
-            <li class="menu__item hover-item" data-title="Цены"><span>Цены</span></li>
-            <li class="menu__item hover-item" data-title="Скидки"><span>Скидки</span></li>
-            <li class="menu__item hover-item" data-title="Поддержка"><span>Поддержка</span></li>
-            <li class="menu__item hover-item" data-title="О компании"><span>О компании</span></li>
-            <li class="menu__item hover-item" data-title="Отзывы"><span>Отзывы</span></li>
-            <li class="menu__item hover-item" data-title="Контакты"><span>Контакты</span></li>
+            <li class="menu__item-text hover-item" data-title="Цены"><span>Цены</span></li>
+            <li class="menu__item-text hover-item" data-title="Скидки"><span>Скидки</span></li>
+            <li class="menu__item-text hover-item" data-title="Поддержка"><span>Поддержка</span></li>
+            <li class="menu__item-text hover-item" data-title="О компании"><span>О компании</span></li>
+            <li class="menu__item-text hover-item" data-title="Отзывы"><span>Отзывы</span></li>
+            <li class="menu__item-text hover-item" data-title="Контакты"><span>Контакты</span></li>
           </ul>
         </nav>
         <div class="header__contacts">
@@ -47,7 +47,7 @@
     <main class="content">
       <!-- Стартовый блок с слоганом -->
       <section class="intro">
-        <img class="intro__cover" src="./images/cathryn-lavery-NsWcRlBT_74-unsplash.jpg" alt="заставка">
+        <img class="intro__cover" src="./images/cover/cathryn-lavery-NsWcRlBT_74-unsplash.jpg" alt="заставка">
         <div class="intro__slogan" id="slogan">
           <h1 class="intro__title">Сервисная ИТ компания</h1>
           <p class="intro__about">Мы - сервисная компания, специализирующаяся
@@ -65,41 +65,47 @@
               </div>
               <p class="service-card__title">Проектирование</p>
               <p class="service-card__description">Услуги по развитию инфраструктуры и сервисов. Часто рост компании ставит новые ИТ задачи перед руководством. Наши специалисты готовы взять на себя решение этих задач.</p>
+              <span class="material-icons-outlined service-card__background">psychology</span>
           </li>
           <li class="service-card">
               <div class="service-card__icon">
-                <span class="material-icons">hail</span>
+                <span class="material-icons md-48">hail</span>
               </div>
               <p class="service-card__title">ИТ-аутсорсинг</p>
-              <p class="service-card__description">ИТ-аутсорсинг является основной специализацией нашей компании. На основе богатого опыта практической работы, нами разработан стандартный пакет услуг, оказываемый всем нашим клиентам вне зависимости от размеров бизнеса и количества компьютеров в сети компании.</p>
+              <p class="service-card__description">ИТ-аутсорсинг является основной специализацией нашей компании. На основе богатого опыта практической работы, нами разработан стандартный пакет услуг, оказываемый всем нашим клиентам.</p>
+            <span class="material-icons-outlined service-card__background">hail</span>
           </li>
           <li class="service-card">
               <div class="service-card__icon">
-                <span class="material-icons">legend_toggle</span>
+                <span class="material-icons md-48">legend_toggle</span>
               </div>
               <p class="service-card__title">Мониторинг</p>
-              <p class="service-card__description">В компании Адопус Про развернута и функционирует система мониторинга, построенная на основе open source решения корпоративного уровня Zabbix. Услуга предоставляется всем клиентам по умолчанию, её стоимость входит в стандартный пакет ИТ-аутсорсинга.</p>
+              <p class="service-card__description">В компании Адопус Про развернута и функционирует система мониторинга, построенная на основе open source решения корпоративного уровня Zabbix. Услуга предоставляется всем клиентам по умолчанию.</p>
+              <span class="material-icons-outlined service-card__background">legend_toggle</span>
           </li>
           <li class="service-card">
               <div class="service-card__icon">
-                <span class="material-icons">enhanced_encryption</span>
+                <span class="material-icons md-48">enhanced_encryption</span>
               </div>
               <p class="service-card__title">Криптозащита</p>
-              <p class="service-card__description">Криптографическая защита рабочих станций и серверов это шифрование жестких дисков компьютеров и серверов, обрабатывающих конфиденциальную информацию (КИ), с целью не допустить попадание информации к злоумышленнику при несанкционированном физическом доступе к технике</p>
+              <p class="service-card__description">Криптографическая защита рабочих станций и серверов это шифрование жестких дисков компьютеров и серверов, обрабатывающих конфиденциальную информацию (КИ), с целью сохранить вашы данные.</p>
+              <span class="material-icons-outlined service-card__background">enhanced_encryption</span>
           </li>
           <li class="service-card">
             <div class="service-card__icon">
-              <span class="material-icons">dns</span>
+              <span class="material-icons md-48">dns</span>
             </div>
             <p class="service-card__title">Виртуализация</p>
             <p class="service-card__description">Позволяет экономить на аппаратных средствах, снижает количество потребленной электроэнергии как самими серверами, так и кондиционерами, охлаждающими серверную</p>
+            <span class="material-icons-outlined service-card__background">dns</span>
           </li>
           <li class="service-card">
             <div class="service-card__icon">
-              <span class="material-icons">perm_phone_msg</span>
+              <span class="material-icons md-48">perm_phone_msg</span>
             </div>
             <p class="service-card__title">Техническая поддержка</p>
             <p class="service-card__description">Наш отдел технической поддержки работает с 10.00 до 19.00 (мск) по будням, однако у вас всегда имеется возможность отправить нам заявку можно несколькими способами в режиме 24х7</p>
+            <span class="material-icons-outlined service-card__background">perm_phone_msg</span>
           </li>
         </ul>
       </section>

@@ -6,10 +6,11 @@
   color: #ffffff;
   padding: 15px 20px;
   cursor: pointer;
+  background: #0366ef;
 
-
-  background: linear-gradient(to right, #2876e2 0%, #3f8efc 100%);
-  transition: background 2s;
+  transition-property:  all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
 }
 
 .button:active, .button:focus {
@@ -17,5 +18,6 @@
 }
 
 .button:hover {
-  background: #3f8efc;
+  background: #ffad36;
+  color: #000;
 }

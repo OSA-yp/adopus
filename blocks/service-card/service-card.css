@@ -8,6 +8,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  cursor: pointer;
 
+  transition-duration: 0.4s;
+  transition-property: all;
+  overflow: hidden
 }
+
+.service-card:hover {
+  border: none;
+  background-color: #2876e2;
+}
+
+
+.service-card:hover .service-card__icon {
+  background-color: #fff;
+}
+
+.service-card:hover .service-card__icon > .material-icons{
+  color: #2876e2;
+}
+
+
+.service-card:hover .service-card__title {
+  color: #ffffff;
+}
+
+.service-card:hover .service-card__description {
+  color: #ffffff;
+}
+
+.service-card:hover .service-card__background {
+  opacity: 0.14;
+}
+
+
 
