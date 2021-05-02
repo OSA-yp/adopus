@@ -1,0 +1,34 @@
+/* Стилизизация элемента popup__close */
+.popup__close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  /*background-image: url(../../../images/popup/__close.svg);*/
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  transition: all 0.25s;
+  margin: 0;
+  padding: 0;
+}
+}
+
+/* Убираем выделение кнопки при фокусе и активации, для соответствия макету */
+.popup__close:active, .popup__close:focus {
+  outline: none;
+ }
+
+.popup__close:hover {
+  transform: rotate(90deg);
+  color: #2876e2;
+}
+
+
+@media screen and (max-width: 640px) {
+  .popup__close {
+    top: -35px;
+    right: 0;
+    width: 26px;
+    height: 26px;
+  }
+}

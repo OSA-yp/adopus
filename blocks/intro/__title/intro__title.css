@@ -8,5 +8,12 @@
   color: rgb(48, 48, 54);
   margin: 0;
   padding: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+  .intro__title {
+   text-align: center;
+  }
 }
 

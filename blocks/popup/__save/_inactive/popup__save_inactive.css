@@ -1,0 +1,14 @@
+/* Стилизизация модификатора popup__save_inactive */
+.popup__save_inactive {
+  opacity: 0.2;
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: #ffffff;
+
+
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

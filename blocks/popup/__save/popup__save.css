@@ -1,0 +1,17 @@
+/* Стилизизация элемента popup__save */
+.popup__save {
+  opacity: 1;
+  cursor:pointer; /* всегда на таких объектах курсор как рука */
+}
+
+
+@media screen and (max-width: 640px) {
+  .popup__save {
+    margin: 15px 22px 0 22px;
+    width: 238px;
+    height: 46px;
+
+    font-size: 14px;
+    line-height: 17px;
+}
+}

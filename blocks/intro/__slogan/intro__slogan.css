@@ -4,7 +4,8 @@
   padding: 25px;
   position: absolute;
   top: 30px;
-  left: calc((100% - 1280px)/2);
+  left: 60px;
+  /*left: calc((100% - 1280px)/2); */
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -17,16 +18,19 @@
 
 @media screen and (max-width: 1340px) {
   .intro__slogan {
-    left: 6px;
+
   }
 }
 
-/*@media screen and (max-width: 1024px) {*/
-/*  .intro__slogan {*/
-/*    font-size: 20px;*/
-/*    line-height: 30px;*/
-/*    max-width: 100%;*/
-/*  }*/
-/*}*/
-
+@media screen and (max-width: 750px) {
+  .intro__slogan {
+    position: relative;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 300px;
+    min-height: 300px;
+    top: 0;
+    left: 0;
+  }
+}
 

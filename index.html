@@ -47,12 +47,12 @@
     <main class="content">
       <!-- Стартовый блок с слоганом -->
       <section class="intro">
-        <img class="intro__cover" src="./images/cover/cathryn-lavery-NsWcRlBT_74-unsplash.jpg" alt="заставка">
+        <div class="intro__cover"></div>
         <div class="intro__slogan" id="slogan">
           <h1 class="intro__title">Сервисная ИТ компания</h1>
           <p class="intro__about">Мы - сервисная компания, специализирующаяся
             на ИТ-аутсорсинге для небольших и средних компаний</p>
-          <input class="button" type="button" name="consultationButton" value="Бесплатная консультация">
+          <input class="button" type="button" name="consultationButton" id="consultationButton" value="Бесплатная консультация">
         </div>
       </section>
       <!-- Услуги-->
@@ -116,9 +116,30 @@
       <p class="footer__copyright">&COPY; 2021 Адопус Про</p>
     </footer>
 
+<!--    Попап для обратной сявзи-->
+    <div class="popup" id="callbackPopup">
+      <form class="popup__form" name="callbackForm" id="callbackForm" novalidate>
+        <h2 class="popup__title">Бесплатная консультация</h2>
+        <div class="popup__field-and-error">
+          <input class="popup__field" id="callbackFormName" type="text" placeholder="Имя" name ="name" required minlength="2" maxlength="100">
+          <span class="popup__field-error" id="callbackFormNameError"></span>
+        </div>
+        <div class="popup__field-and-error">
+          <input class="popup__field" id="callbackFormContact" type="text" placeholder="Телефон или e-mail" name ="contact" required>
+          <span class="popup__field-error" id="callbackFormContactError"></span>
+        </div>
+        <div class="popup__field-and-error">
+          <textarea class="popup__field" id="callbackFormMessage" placeholder="Сообщение" name ="message"></textarea>
+          <span class="popup__field-error" id="callbackFormMessageError"></span>
+        </div>
+        <input class="button popup__save" id="callbackFormSend" type="submit" value="Отправить">
+        <button class="popup__close" type="button"><span class="material-icons-outlined">close</span></button>
+      </form>
+    </div>
 
   </div>
   <script src="./scripts/loadSettings.js"></script>
+  <script src="./scripts/validate.js"></script>
   <script src="./scripts/index.js"></script>
 </body>
 </html>

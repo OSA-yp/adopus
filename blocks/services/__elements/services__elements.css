@@ -8,3 +8,14 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1150px) {
+  .services__elements {
+    grid-template-columns: 350px 350px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .services__elements {
+    grid-template-columns: 320px;
+    grid-column-gap: 0;
+  }
+}
